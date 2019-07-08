@@ -1,0 +1,54 @@
+/* Generals */
+.clear {
+    clear: both;
+}
+.hide {
+    display: none;
+}
+.btn {
+    padding: 0 3px;
+    line-height: 25px;
+    border: solid #cccccc;
+    border-width: 0 0 1px 0;
+    font-size: 11px;
+    border-radius: 3px;
+    color: #333333;
+    cursor: pointer;
+}
+
+div#quality_plugin {
+    clear: both;
+    background-color: #FFEE5F;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #DFCB21;
+    border-radius: 3px;
+}
+
+div#quality_buttons {
+    margin: 10px 0;
+    text-align: center;
+}
+
+div#quality_plugin .textarea {
+    width: 95%;
+    height: 120px;
+    font-size: 11px !important;
+}
+div.success {
+    color: #129D17;
+    font-weight: bold;
+    font-size: 18px;
+}
+div.only_view {
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+#filtros {
+    margin: 10px 0;
+}
+#filtros .select {
+    font-size: 12px;
+    width: 300px;
+}

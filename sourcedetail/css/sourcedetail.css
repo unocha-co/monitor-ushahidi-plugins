@@ -1,0 +1,59 @@
+/* Generals */
+.clear {
+    clear: both;
+}
+.hide {
+    display: none;
+}
+
+div#sourcedetail_plugin {
+    clear: both;
+    background-color: #DDF2D4;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 1px solid #52a330;
+    border-radius: 3px;
+}
+
+div#sourcedetail select {
+    width: 300px;
+    border: 1px solid #cccccc;
+    font-size: 11px;
+}
+
+div.sd_group {
+    border: 1px solid #cccccc;
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+div.sd_group div {
+    padding: 5px;
+}
+
+div.sd_group label {
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+}
+div.sd_group .textarea {
+    width: 390px;
+    height: 70px;
+    font-size: 11px !important;
+}
+div.sd_group input.text,
+div.sd_group .textarea {
+    float: none !important;
+}
+
+div.sd_group .text {
+    width: 90px;
+}
+div.buttons {
+    float: right;
+    height: 20px;
+}
+p.note {
+    font-size: 11px;
+}

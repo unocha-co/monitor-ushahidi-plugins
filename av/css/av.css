@@ -1,0 +1,249 @@
+/* Generals */
+.clear {
+    clear: both;
+}
+.hide {
+    display: none;
+}
+.optgroup {
+    font-weight: bold;
+}
+.option {
+}
+
+#av, #av_note {
+    width: 390px;
+}
+
+#av_note {
+    font-size: 13px !important;
+}
+
+#av_note h4 {
+    margin: 5px 0 !important;
+}
+
+div.av {
+    width: 385px;
+}
+
+#av_plugin .ui-tabs .ui-tabs-panel {
+    padding: 3px !important;
+}
+
+/* Actor form */
+#div_actor {
+}
+
+/* Victims form */
+#div_victim {
+    padding: 5px;
+    margin: 0 0 10px 0;
+    font-size: 11px;
+}
+#div_victim .note{
+    font-weight: bold;
+}
+
+#div_victim label {
+    padding: 5px; 
+}
+#div_victim input {
+    font-size: 11px;
+    border: 1px solid #e1e1e1;
+    width: 120px;
+    padding: 2px;
+}
+#av_plugin select {
+    font-size: 11px;
+    border: 1px solid #e1e1e1;
+    margin-left: 10px;
+}
+#av_cats {
+    font-size: 120%;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+#div_victim .buttons{
+    float: right;
+    height: 20px;
+}
+.av_category_div{
+    margin-top: 5px;
+}
+#div_victim .victim_group{
+    background-color: #fff1f1;
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#div_victim .victim_group label {
+    display: block;
+}
+#div_victim .victim_group select {
+    display: block;
+}
+.victim_category_hidden{
+    display: none;
+}
+.hide {display: none}
+
+.victim_category_div .half {
+    float: left;
+    width: 40%;
+}
+.victim_category_div .third {
+    float: left;
+    width: 30%;
+}
+
+/* Victims view */
+
+.div_victim_view {
+    padding: 5px;
+    margin: 0 0 10px 0;
+    font-size: 11px;
+}
+.div_victim_view h2{
+    margin: 0 0 5px 0;
+}
+.div_victim_view .note{
+    font-weight: bold;
+}
+
+.div_victim_view span {
+    font-weight: bold;
+}
+.div_victim_view .victim_category_div{
+    margin-top: 5px;
+    height: 150px;
+}
+.div_victim_view .victim_group{
+    background-color: #fff1f1;
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 5px;
+    float: left;
+    width: 250px;
+}
+.div_victim_view .victim_group ul {
+    list-style: none;
+    padding: 5px;
+}
+
+/* Victim Filters home */
+div.filters {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 120%;
+	border: 1px solid #e9e9e9;
+    border-left: 0;
+    border-bottom: 0;
+    height: 25px;
+    width: 400px;
+    text-align: center;
+	-moz-border-radius-topright: 5px;
+	-khtml-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	background:#fefefe;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e9e9e9));
+	background-image: -moz-linear-gradient(top, #fefefe, #e9e9e9);
+}
+div.filters ul{
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+div.filters li{
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 200px;
+}
+div.filters ul li a:hover{
+    color: #198c00;
+    background: none;
+}
+
+div.filters ul li a.active{
+    padding: 6px;
+    background: none;
+    font-weight: bold;
+    color: #198c00;
+    font-size: 110%;
+    text-shadow: #fff 0 1px 1px;
+}
+div.filters strong{
+    background: none;
+}
+#victim_filters{
+    clear: both;
+    display: none;
+    background-color: #e9e9e9;
+    padding: 5px 1px 5px 0;
+    width: 400px;
+    height: 25px;
+    text-align: center;
+}
+#victim_filters ul{
+    list-style:none;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+#victim_filters ul li{
+    display: inline;
+    font-size: 12px;
+}
+#victim_filters ul li.note{
+    color: #cccccc;
+    text-transform:none;
+}
+#victim_filters select{
+    border: 1px solid #996;
+    font-size: 11px;
+    color: #333333;
+    background-color: #fff;
+}
+
+
+/* Actor */
+#div_actor_content {
+    height: 300px;
+    overflow: auto;
+    font-size: 11px;
+    padding: 5px;
+    background-color: #fff;
+}
+#div_actor_content div {
+    padding: 3px 0 0 0;
+    margin: 1px 0 0 0;
+}
+#div_actor_content div.selected {
+    background-color: #ff7171;
+}
+
+#div_actor_content input[type=checkbox] {
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+#div_actor_content div.h {
+    padding-left: 20px;
+}
+#div_actor_content div.n {
+    padding-left: 40px;
+}
+div.search {
+    background: url(search.png) 3px no-repeat;
+    padding: 3px 5px 5px 25px !important;
+}
+
+div.search input {
+    border: 1px solid #cccccc;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+div.search input:focus {
+    background-color: #ffffcc;
+}

@@ -1,0 +1,90 @@
+/* Generals */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.hide {
+    display: none;
+}
+.optgroup {
+    font-weight: bold;
+}
+.option {
+}
+
+.access_row {
+    font-size: 12px;
+}
+.access_row a {
+    text-decoration: none;
+}
+.btn {
+    padding: 0 3px 0 28px;
+    line-height: 25px;
+    border: solid #cccccc;
+    border-width: 0 0 1px 0;
+    font-size: 11px;
+    border-radius: 3px;
+    color: #333333;
+    cursor: pointer;
+}
+.btn_classify {
+    background: url(../images/classify.png) 5px 5px no-repeat, -moz-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/classify.png) 5px 5px no-repeat, -ms-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/classify.png) 5px 5px no-repeat, -o-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/classify.png) 5px 5px no-repeat, -webkit-gradient(linear,left top,left bottom,color-stop(0,#e6e6e6),color-stop(100%,#dcdcdc));
+    background: url(../images/classify.png) 5px 5px no-repeat, linear-gradient(to bottom,#e6e6e6 0,#dcdcdc 100%);
+    background-size: 18px;
+    display: none;
+    margin: 0 0 0 5px;
+}
+.btn_save {
+    background: url(../images/save.png) 5px 5px no-repeat, -moz-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/save.png) 5px 5px no-repeat, -ms-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/save.png) 5px 5px no-repeat, -o-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/save.png) 5px 5px no-repeat, -webkit-gradient(linear,left top,left bottom,color-stop(0,#e6e6e6),color-stop(100%,#dcdcdc));
+    background: url(../images/save.png) 5px 5px no-repeat, linear-gradient(to bottom,#e6e6e6 0,#dcdcdc 100%);
+    background-size: 18px;
+    margin: 0 0 0 5px;
+}
+.btn_delete, .btn_discard {
+    background: url(../images/delete.png) 5px 5px no-repeat, -moz-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/delete.png) 5px 5px no-repeat, -ms-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/delete.png) 5px 5px no-repeat, -o-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/delete.png) 5px 5px no-repeat, -webkit-gradient(linear,left top,left bottom,color-stop(0,#e6e6e6),color-stop(100%,#dcdcdc));
+    background: url(../images/delete.png) 5px 5px no-repeat, linear-gradient(to bottom,#e6e6e6 0,#dcdcdc 100%);
+    background-size: 18px;
+    margin: 0 0 0 5px;
+}
+.btn_pre {
+    background: url(../images/pre.png) 5px 5px no-repeat, -moz-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/pre.png) 5px 5px no-repeat, -ms-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/pre.png) 5px 5px no-repeat, -o-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+    background: url(../images/pre.png) 5px 5px no-repeat, -webkit-gradient(linear,left top,left bottom,color-stop(0,#e6e6e6),color-stop(100%,#dcdcdc));
+    background: url(../images/pre.png) 5px 5px no-repeat, linear-gradient(to bottom,#e6e6e6 0,#dcdcdc 100%);
+    background-size: 18px;
+    margin: 0 0 0 5px;
+}
+.access_form {
+    background-color: #FBFEBF;
+    padding: 10px;
+    border: 1px solid #c6c670;
+    display: none;
+    clear: both;
+    font-size: 12px;
+}
+.tab {
+    padding: 10px !important;
+    font-size: 14px;
+    background-color: #eeeeee;
+    width: auto !important;
+}
+.message {
+    color: #2CB016;
+    font-size: 12px;
+}
